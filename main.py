@@ -8,4 +8,5 @@ canvas1.pack()
 def test ():  
     label1 = tk.Label(root, text= 'testing', fg='green', font=('helvetica', 12, 'bold'))
     canvas1.create_window(150, 200, window=label1)
+    print("test")
 root.mainloop()
